@@ -1,0 +1,94 @@
+.sidebar{
+    background-color: black;
+    color: antiquewhite;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+li{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: wavy;
+    color: white;
+}
+
+a:hover{
+    background-color: burlywood;
+    color: crimson;
+}
+
+.rounded-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow-y: none;
+}
+.my_name{font-size: 40px;
+}
+
+.main-content{
+    margin-left: 250px;
+}
+.introduction{
+    margin-left: 10px;
+}
+
+.introduction-text{
+    margin-left: 10px;
+}
+
+.contact me{
+    border: 1px solid black;
+    color: blue;
+    text-align: center;
+    padding: 50px;
+    margin-left: 350px;
+}
+
+.contact me a{
+    font-size: larger;
+    border: 1px solid black;
+
+}
+.contact me a:hover{
+    color: brown;
+    background-color: antiquewhite;
+    transition: 200ms ease-in-out;
+}
+
+.read-more{
+    padding: 10px;
+}
+
+.read-more a{ 
+    color: white;
+    background-color:black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid bisque;
+}
+
+.read-more a :hover{
+    background-color: white;
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+
